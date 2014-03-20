@@ -1,0 +1,100 @@
+
+.logo{
+
+  background:RGB(244,245,249);
+  display=inline-block;
+}
+.chooseOther .entry-chooseOther {
+  float: left;
+  margin-left: 20px;
+}
+
+#containerWrapper {
+  width: 1240px;
+  min-height: 1000px;
+  margin: 0 auto;
+}
+
+.one_case_chart {
+  width: 400;
+  height: 400px;
+  float: left;
+  margin: 5px;
+  border: 1px solid;
+}
+
+
+.chooseV.entry-chooseV{
+  float: left;
+}
+
+
+
+
+.chooseO.entry-chooseO{
+
+  float: left;
+}
+
+.select * {
+  margin: 0;
+  padding: 0;
+}
+.select {
+  border:1px solid #cccccc;
+  float: left;
+  display: inline;
+  }
+.select div {
+  border:1px solid #f9f9f9;
+  float: left;
+}
+
+.select>div {
+  width:120px;
+  height: 17px;
+  overflow:hidden;
+  }
+ 
+
+* html .select div select {
+  display:block;
+  float: left;
+  margin: -2px;
+}
+.select div>select {
+  display:block;
+  width:124px;
+  float:none;
+  margin: -2px;
+  padding: 0px;
+}
+.select:hover {
+  border:1px solid #666666; //鼠标移上的效果
+}
+.select select>option {
+  text-indent: 2px; //option在FF等非IE浏览器缩进2px
+}
+.btn-group{
+position: relative;
+display: inline-block;
+font-size: 0;
+white-space: nowrap;
+vertical-align: middle;
+margin-right: 10px;
+}
+.btn {
+margin-right: -1px;
+font-size: 12px;
+padding: 2px 9px;
+-webkit-border-radius: 0;
+-moz-border-radius: 0;
+border-radius: 0;
+}
+.btn.active {
+outline: 0;
+background-color: #c1e9a0;
+-webkit-box-shadow: inset 1px 2px 2px rgba(0,0,0,.2);
+-moz-box-shadow: inset 1px 2px 2px rgba(0,0,0,.2);
+box-shadow: inset 1px 2px 2px rgba(0,0,0,.2);
+}
